@@ -1,10 +1,11 @@
 import React from 'react';
+import './Smoke.css';
 
 export default class Smoke extends React.Component {
     render() {
         return (
-            <div>
-                <h1>Smoke</h1>
+            <div className='smoke'>
+                <video className='video' autoPlay loop src='/smoke.mov' />
             </div>
         );
     }
